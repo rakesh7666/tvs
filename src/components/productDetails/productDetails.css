@@ -1,0 +1,44 @@
+.brand {
+    font-size: 22px;
+    color: var(--bs-primary);
+}
+
+.productTitle {
+    font-weight: 500;
+    font-family: Teko, sans-serif;
+    font-size: 34px;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.act-price {
+    color: var(--bs-primary);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.dis-price {
+    text-decoration: line-through;
+    margin: 0 5px;
+    color: red;
+    font-weight: 500;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.detail-section {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    padding: 15px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.detail-title {
+    color: #000000;
+
+}

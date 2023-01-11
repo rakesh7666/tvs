@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+
+    .nav-menu {
+        background: var(--bs-primary);
+        position: relative;
+        bottom: -35px;
+        z-index: 9;
+        padding: 4px 60px;
+        left: 0px;
+    }
+
+    .nav-menu::before {
+        border-left: 70px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 55px solid var(--bs-primary);
+        content: "";
+        position: absolute;
+        left: -70px;
+        z-index: 1;
+        bottom: 0;
+    }
+
+    .nav-menu a {
+        color: #fff;
+        padding: 12px 18px !important;
+    }
+
+    .nav-menu a:hover,
+    .nav-menu a:focus {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+
+/*-------------------------------------------service page----------------------------------*/
+
+.servc-ft-img {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}

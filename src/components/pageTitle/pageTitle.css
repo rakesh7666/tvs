@@ -1,0 +1,10 @@
+ .pageTitle {
+     font-size: 60px;
+     text-align: center;
+     background: var(--primaryBg);
+     color: #fff;
+     padding-bottom: 60px;
+     margin-top: 0;
+     padding-top: 80px;
+     margin-bottom: 20px;
+ }

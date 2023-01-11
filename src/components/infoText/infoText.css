@@ -1,0 +1,17 @@
+.section-5 {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.sec-5jk-p {
+    padding: 0px 260px;
+}
+
+@media (max-width: 769px) {
+
+    .sec-5jk-p {
+        padding: 0px 70px;
+    }
+
+
+}

@@ -1,0 +1,27 @@
+.productCard {
+    box-shadow: -10px 10px 20px hsl(0deg 0% 100% / 25%), 10px 10px 20px rgb(0 0 0 / 12%);
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.productCard h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.productCard:hover {
+    color: #000;
+}
+
+.productCard .description {
+    font-size: 13px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.productCard .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}

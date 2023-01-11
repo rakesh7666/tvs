@@ -1,0 +1,29 @@
+.about-us-section.flex-row-reverse {
+    background: #4b74a1;
+    color: white;
+}
+
+.about-us-section {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+.about-us-info h2 {
+    font-size: 40pt;
+}
+
+.about-us-info h2:empty {
+    display: none;
+}
+
+.about-us-info p {
+    font-size: 14pt;
+}
+
+@media(max-width:767px) {
+    .about-us-info {
+        text-align: center;
+        padding: 20px;
+    }
+}

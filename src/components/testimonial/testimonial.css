@@ -1,0 +1,79 @@
+.testimonial {
+    min-height: 375px;
+    position: relative;
+    background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -30px;
+}
+
+
+.testimonial4_header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 550px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial4_header h4 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.testimonial4_slide {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.testimonial4_slide img {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 136px;
+    height: 136px;
+    margin: auto;
+    display: block;
+    color: #f2f2f2;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.testimonial4_slide p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+}
+
+.testimonial4_slide h4 {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.testimonial .carousel {
+    padding-bottom: 50px;
+}

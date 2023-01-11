@@ -1,0 +1,62 @@
+.bg-card {
+    padding: 0px !important;
+}
+
+.bg-card .card {
+    --bs-card-inner-border-radius: 0px;
+}
+
+.txt-jk {
+    border: none !important;
+}
+
+.cd-img-jk {
+    border-radius: unset !important;
+}
+
+.overlay-jk {
+    text-align: center;
+    padding: 150px 20px !important;
+}
+
+.bg-card:nth-child(1n) .overlay-jk {
+    background: #ceac61d1;
+}
+
+.bg-card:nth-child(2n) .overlay-jk {
+    background: #2d5685e3;
+}
+
+.bg-card:nth-child(3n) .overlay-jk {
+    background: #31a3c6d9;
+}
+
+@media (min-width: 569px) and (max-width: 769px) {
+    .overlay-jk {
+        text-align: center;
+        padding: 50px 20px !important;
+    }
+
+    .card-p-jk {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 568px) {
+    .bg-card {
+        flex: auto !important;
+    }
+
+    .overlay-jk {
+        text-align: center;
+        padding: 115px 20px !important;
+    }
+}
+
+@media (min-width: 786px) and (max-width: 1024px) {
+    .overlay-jk {
+        text-align: center;
+        padding: 71px 20px !important;
+    }
+}
