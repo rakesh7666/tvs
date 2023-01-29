@@ -6,7 +6,7 @@ class ProductCard extends Component {
         if (!this.props.data) return null;
         let data = this.props.data;
         return (
-            <a className="card productCard" href={data.id ? 'product/' + data.id : '#'}>
+            <a className="card productCard" href={data.id ? '/product/' + data.id : '#'}>
                 <img src={data.productImage} alt="Denim Jeans" />
                 <div className="card-body">
                     <h3>{data.title}</h3>

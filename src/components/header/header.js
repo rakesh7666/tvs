@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './header.css';
-import logo from '../../assets/images/logo-tvs.png';
+import logo from './logo-tvs.png';
 
 class Header extends Component {
     render() {

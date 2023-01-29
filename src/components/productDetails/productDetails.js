@@ -6,9 +6,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import ProductCard from '../productCard/productCard';
+import ReactImageMagnify from 'react-image-magnify';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 const ProductDetails = () => {
     const { productID } = useParams();
+    const selectedData = products.filter(x => x.id == productID)[0];
     let settings = {
         dots: true,
         infinite: true,
@@ -43,54 +47,80 @@ const ProductDetails = () => {
                     <div className="col-md-6">
                         <div className="images pr-3">
                             <div className="text-center pb-3">
-                                <img className='main-image' id="main-image" src="/assets/images/04.jpg" /> </div>
+                                <ReactImageMagnify {...{
+                                    smallImage: {
+                                        alt: 'Wristwatch by Ted Baker London',
+                                        isFluidWidth: true,
+                                        src: selectedData.productImage
+                                    },
+                                    largeImage: {
+                                        src: selectedData.productImage,
+                                        width: 1200,
+                                        height: 1800
+                                    }
+                                }} />
+                            </div>
+                            {/* <img className='main-image' id="main-image" src="" /> </div> */}
                             <div className="thumbnail text-center">
-                                <img src="/assets/images/04.jpg" width="70" />
-                                <img src="/assets/images/04.jpg" width="70" />
+                                {selectedData && selectedData.gallery.map(item => (
+                                    <img src={item} width="70" />
+                                ))}
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="product p-4">
                             <div className="mb-3">
-                                <span className="text-uppercase brand">Orianz</span>
-                                <h5 className="text-uppercase productTitle">Men's slim fit t-shirt</h5>
+                                <span className="text-uppercase brand">{selectedData.brand}</span>
+                                <h5 className="text-uppercase productTitle">{selectedData.title}</h5>
                                 <div className="price d-flex flex-row align-items-center">
-                                    <span className="act-price">$20</span>
-                                    <div className="ml-2">
+                                    <span className="act-price">₹ {selectedData.price} <small>onwards</small></span>
+                                    {/* <div className="ml-2">
                                         <small className="dis-price">$59</small>
                                         <span>40% OFF</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="detail-section">
-                                <h5 className='detail-title'>Product Details</h5>
-                                <p>Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
-                                <p>Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
+                                {selectedData.description}
                             </div>
                             <div className='detail-section'>
-                                <h5 className='detail-title'>Product Hightlights</h5>
-                                <ul>
-                                    <li>Leather finish touch; Weight:1100±50 gms</li>
-                                    <li>
-                                        Off-road look ; Shell: High Impact ABS Material Shell ; Aerodynamic Shape ; Visor: Scratch resistant &amp; UV resistant. Visor in optical polycarbonate</li>
-                                    <li>
-                                        Easy fitting visor with good ventilation</li>
-                                    <li>
-                                        Use press button for smooth function of flip up action</li>
-                                    <li>
-                                        All helmets feel tight at first to meet safety requirements and foam takes time to adjust according to head size.</li>
-                                    <li>
-                                        Size: Small (55- 56cm), Medium(56- 58cm), Large(58- 59 cm), Extra Large(59- 60cm)</li>
+                                <ul className='productDesc'>
+                                    {selectedData.highlightedDescription && Object.keys(selectedData.highlightedDescription).map((key, i) => (
+                                        <li><label>{key}: </label><div className='value'>{selectedData.highlightedDescription[key]}</div></li>
+                                    ))}
                                 </ul>
                             </div>
                             <div className="cart mt-4 align-items-center">
-                                <button className="btn btn-primary text-uppercase mr-2 px-4">Add to cart</button>
+                                <button className="btn btn-secondary text-uppercase me-2 px-4">Download Brochure</button>
+                                <button className="btn btn-primary text-uppercase me-2 px-4">Add to cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className='productDetailed mt-5'>
+                <Tabs >
+                    <Tab eventKey="technical" title="Technical Specifications">
+                        {selectedData.technicalDescription && selectedData.technicalDescription.map(item => (
+                            <div className='detail-section'>
+                                <h4 className='detail-title'>{item.name}</h4>
+                                <ul className='productDesc'>
+                                    {item.data && Object.keys(item.data).map((key, i) => (
+                                        <li><label>{key}: </label><div className='value'>{item.data[key]}</div></li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </Tab>
+                    <Tab eventKey="features" title="Features & Options">
+                        {selectedData.features && selectedData.features.map(item => (
+                            <img src={item} className='img-fluid my-3' />
+                        ))}
+                    </Tab>
+                </Tabs>
+            </div>
+
             <div className='mt-5'>
                 <h3 className='sectionTitle mb-3'>Related Products</h3>
                 <div className='row'>
@@ -104,6 +134,6 @@ const ProductDetails = () => {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 export default ProductDetails;

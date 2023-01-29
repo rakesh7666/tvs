@@ -19,6 +19,12 @@
     font-size: 30px;
 }
 
+.act-price small{
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+}
+
 .dis-price {
     text-decoration: line-through;
     margin: 0 5px;
@@ -34,11 +40,41 @@
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
     padding: 15px 0;
-    border-top: 1px solid #ebebeb;
+    /* border-top: 1px solid #ebebeb; */
     border-bottom: 1px solid #ebebeb;
 }
 
 .detail-title {
     color: #000000;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
 
+.productDesc{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.productDesc li{
+    display: flex;
+    margin: 5px 0;
+}
+
+.productDesc label{
+    font-weight: bold;
+    width: 200px;
+}
+
+.productDesc .value{
+    width: calc(100% - 200px);
+}
+
+.productDetailed .tab-content{
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    padding: 0 15px;
+}
+.productDetailed .detail-section{
+    border-bottom: 0;
 }

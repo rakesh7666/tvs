@@ -232,7 +232,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
 }
 
-label {
+.contact-form-wrapper label {
     position: absolute;
     top: 10px;
     left: 2%;
@@ -321,4 +321,14 @@ textarea:valid+label {
 .slick-prev:before,
 .slick-next:before {
     color: var(--bs-primary) !important;
+}
+
+/* Button Styling  */
+.btn-primary{
+    --bs-btn-bg: var(--bs-primary)!important;
+    --bs-btn-border-color: var(--bs-primary)!important;
+    --bs-btn-hover-bg: var(--primaryDark)!important;
+    --bs-btn-hover-border-color: var(--primaryDark)!important;
+    --bs-btn-active-bg: var(--primaryDark)!important;
+    --bs-btn-active-border-color: var(--primaryDark)!important;
 }

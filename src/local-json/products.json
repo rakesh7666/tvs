@@ -2,43 +2,475 @@
     {
         "id": 1,
         "productImage": "/assets/images/04.jpg",
-        "title": "Product Name",
-        "price": "10,000",
-        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance"
+        "title": "JUPITER  BS-VI",
+        "price": "69,000",
+        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance",
+        "brand": "TVS",
+        "gallery": [
+            "/assets/images/04.jpg",
+            "/assets/images/04.jpg"
+        ],
+        "highlightedDescription": {
+            "Displacement": "109.7 cc",
+            "Fuel Type": "Petrol"
+        },
+        "brochureLink": "#",
+        "features": [
+            "/assets/images/feature.jpg"
+        ],
+        "technicalDescription": [
+            {
+                "name": "Engine",
+                "data": {
+                    "Type": "Single cylinder 4 stroke, CVTi, fuel injection",
+                    "Displacement": "109.7cc",
+                    "Bore": "53.5 mm",
+                    "Stroke": "48.8 mm",
+                    "Air Filter Type": "Viscous paper filter",
+                    "Maximum Power": "5.5 kW @ 7000 rpm",
+                    "Maximum Torque": "8.4 Nm @ 5500 rpm",
+                    "Transmission Type": "CVT automatic",
+                    "Starting System": "Kick and electric starter"
+                }
+            },
+            {
+                "name": "Transmission",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Electricals",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Chassis & Suspension",
+                "data": {
+                    "Frame": "High rigidity underbone type",
+                    "Length": "1834 mm",
+                    "Width": "678 mm",
+                    "Height": "1286 mm",
+                    "Wheelbase": "1275 mm",
+                    "Ground Clearance": "150 mm (unladen)",
+                    "Kerb Weight": "109 kg",
+                    "Wheels": "Alloy",
+                    "Front Suspension": "Telescopic hydraulic",
+                    "Rear Suspension": "3 step adjustable type coil spring with hydraulic damper"
+                }
+            },
+            {
+                "name": "Brakes",
+                "data": {
+                    "Front": "130 mm Drum (SBT)",
+                    "Rear": "130 mm Drum (SBT)"
+                }
+            },
+            {
+                "name": "Tyres",
+                "data": {
+                    "Front": "90/90-12 54J (tubeless)",
+                    "Rear": "90/90-12 54J (tubeless)"
+                }
+            }
+        ]
     },
     {
         "id": 2,
         "productImage": "/assets/images/04.jpg",
-        "title": "Product Name",
-        "price": "10,000",
-        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance"
+        "title": "JUPITER  BS-VI",
+        "price": "69,000",
+        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance",
+        "brand": "TVS",
+        "gallery": [
+            "/assets/images/04.jpg",
+            "/assets/images/04.jpg"
+        ],
+        "highlightedDescription": {
+            "Displacement": "109.7 cc",
+            "Fuel Type": "Petrol"
+        },
+        "brochureLink": "#",
+        "features": [
+            "/assets/images/feature.jpg"
+        ],
+        "technicalDescription": [
+            {
+                "name": "Engine",
+                "data": {
+                    "Type": "Single cylinder 4 stroke, CVTi, fuel injection",
+                    "Displacement": "109.7cc",
+                    "Bore": "53.5 mm",
+                    "Stroke": "48.8 mm",
+                    "Air Filter Type": "Viscous paper filter",
+                    "Maximum Power": "5.5 kW @ 7000 rpm",
+                    "Maximum Torque": "8.4 Nm @ 5500 rpm",
+                    "Transmission Type": "CVT automatic",
+                    "Starting System": "Kick and electric starter"
+                }
+            },
+            {
+                "name": "Transmission",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Electricals",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Chassis & Suspension",
+                "data": {
+                    "Frame": "High rigidity underbone type",
+                    "Length": "1834 mm",
+                    "Width": "678 mm",
+                    "Height": "1286 mm",
+                    "Wheelbase": "1275 mm",
+                    "Ground Clearance": "150 mm (unladen)",
+                    "Kerb Weight": "109 kg",
+                    "Wheels": "Alloy",
+                    "Front Suspension": "Telescopic hydraulic",
+                    "Rear Suspension": "3 step adjustable type coil spring with hydraulic damper"
+                }
+            },
+            {
+                "name": "Brakes",
+                "data": {
+                    "Front": "130 mm Drum (SBT)",
+                    "Rear": "130 mm Drum (SBT)"
+                }
+            },
+            {
+                "name": "Tyres",
+                "data": {
+                    "Front": "90/90-12 54J (tubeless)",
+                    "Rear": "90/90-12 54J (tubeless)"
+                }
+            }
+        ]
     },
     {
         "id": 3,
         "productImage": "/assets/images/04.jpg",
-        "title": "Product Name",
-        "price": "10,000",
-        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance"
+        "title": "JUPITER  BS-VI",
+        "price": "69,000",
+        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance",
+        "brand": "TVS",
+        "gallery": [
+            "/assets/images/04.jpg",
+            "/assets/images/04.jpg"
+        ],
+        "highlightedDescription": {
+            "Displacement": "109.7 cc",
+            "Fuel Type": "Petrol"
+        },
+        "brochureLink": "#",
+        "features": [
+            "/assets/images/feature.jpg"
+        ],
+        "technicalDescription": [
+            {
+                "name": "Engine",
+                "data": {
+                    "Type": "Single cylinder 4 stroke, CVTi, fuel injection",
+                    "Displacement": "109.7cc",
+                    "Bore": "53.5 mm",
+                    "Stroke": "48.8 mm",
+                    "Air Filter Type": "Viscous paper filter",
+                    "Maximum Power": "5.5 kW @ 7000 rpm",
+                    "Maximum Torque": "8.4 Nm @ 5500 rpm",
+                    "Transmission Type": "CVT automatic",
+                    "Starting System": "Kick and electric starter"
+                }
+            },
+            {
+                "name": "Transmission",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Electricals",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Chassis & Suspension",
+                "data": {
+                    "Frame": "High rigidity underbone type",
+                    "Length": "1834 mm",
+                    "Width": "678 mm",
+                    "Height": "1286 mm",
+                    "Wheelbase": "1275 mm",
+                    "Ground Clearance": "150 mm (unladen)",
+                    "Kerb Weight": "109 kg",
+                    "Wheels": "Alloy",
+                    "Front Suspension": "Telescopic hydraulic",
+                    "Rear Suspension": "3 step adjustable type coil spring with hydraulic damper"
+                }
+            },
+            {
+                "name": "Brakes",
+                "data": {
+                    "Front": "130 mm Drum (SBT)",
+                    "Rear": "130 mm Drum (SBT)"
+                }
+            },
+            {
+                "name": "Tyres",
+                "data": {
+                    "Front": "90/90-12 54J (tubeless)",
+                    "Rear": "90/90-12 54J (tubeless)"
+                }
+            }
+        ]
     },
     {
         "id": 4,
         "productImage": "/assets/images/04.jpg",
-        "title": "Product Name",
-        "price": "10,000",
-        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance"
+        "title": "JUPITER  BS-VI",
+        "price": "69,000",
+        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance",
+        "brand": "TVS",
+        "gallery": [
+            "/assets/images/04.jpg",
+            "/assets/images/04.jpg"
+        ],
+        "highlightedDescription": {
+            "Displacement": "109.7 cc",
+            "Fuel Type": "Petrol"
+        },
+        "brochureLink": "#",
+        "features": [
+            "/assets/images/feature.jpg"
+        ],
+        "technicalDescription": [
+            {
+                "name": "Engine",
+                "data": {
+                    "Type": "Single cylinder 4 stroke, CVTi, fuel injection",
+                    "Displacement": "109.7cc",
+                    "Bore": "53.5 mm",
+                    "Stroke": "48.8 mm",
+                    "Air Filter Type": "Viscous paper filter",
+                    "Maximum Power": "5.5 kW @ 7000 rpm",
+                    "Maximum Torque": "8.4 Nm @ 5500 rpm",
+                    "Transmission Type": "CVT automatic",
+                    "Starting System": "Kick and electric starter"
+                }
+            },
+            {
+                "name": "Transmission",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Electricals",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Chassis & Suspension",
+                "data": {
+                    "Frame": "High rigidity underbone type",
+                    "Length": "1834 mm",
+                    "Width": "678 mm",
+                    "Height": "1286 mm",
+                    "Wheelbase": "1275 mm",
+                    "Ground Clearance": "150 mm (unladen)",
+                    "Kerb Weight": "109 kg",
+                    "Wheels": "Alloy",
+                    "Front Suspension": "Telescopic hydraulic",
+                    "Rear Suspension": "3 step adjustable type coil spring with hydraulic damper"
+                }
+            },
+            {
+                "name": "Brakes",
+                "data": {
+                    "Front": "130 mm Drum (SBT)",
+                    "Rear": "130 mm Drum (SBT)"
+                }
+            },
+            {
+                "name": "Tyres",
+                "data": {
+                    "Front": "90/90-12 54J (tubeless)",
+                    "Rear": "90/90-12 54J (tubeless)"
+                }
+            }
+        ]
     },
     {
         "id": 5,
         "productImage": "/assets/images/04.jpg",
-        "title": "Product Name",
-        "price": "10,000",
-        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance"
+        "title": "JUPITER  BS-VI",
+        "price": "69,000",
+        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance",
+        "brand": "TVS",
+        "gallery": [
+            "/assets/images/04.jpg",
+            "/assets/images/04.jpg"
+        ],
+        "highlightedDescription": {
+            "Displacement": "109.7 cc",
+            "Fuel Type": "Petrol"
+        },
+        "brochureLink": "#",
+        "features": [
+            "/assets/images/feature.jpg"
+        ],
+        "technicalDescription": [
+            {
+                "name": "Engine",
+                "data": {
+                    "Type": "Single cylinder 4 stroke, CVTi, fuel injection",
+                    "Displacement": "109.7cc",
+                    "Bore": "53.5 mm",
+                    "Stroke": "48.8 mm",
+                    "Air Filter Type": "Viscous paper filter",
+                    "Maximum Power": "5.5 kW @ 7000 rpm",
+                    "Maximum Torque": "8.4 Nm @ 5500 rpm",
+                    "Transmission Type": "CVT automatic",
+                    "Starting System": "Kick and electric starter"
+                }
+            },
+            {
+                "name": "Transmission",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Electricals",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Chassis & Suspension",
+                "data": {
+                    "Frame": "High rigidity underbone type",
+                    "Length": "1834 mm",
+                    "Width": "678 mm",
+                    "Height": "1286 mm",
+                    "Wheelbase": "1275 mm",
+                    "Ground Clearance": "150 mm (unladen)",
+                    "Kerb Weight": "109 kg",
+                    "Wheels": "Alloy",
+                    "Front Suspension": "Telescopic hydraulic",
+                    "Rear Suspension": "3 step adjustable type coil spring with hydraulic damper"
+                }
+            },
+            {
+                "name": "Brakes",
+                "data": {
+                    "Front": "130 mm Drum (SBT)",
+                    "Rear": "130 mm Drum (SBT)"
+                }
+            },
+            {
+                "name": "Tyres",
+                "data": {
+                    "Front": "90/90-12 54J (tubeless)",
+                    "Rear": "90/90-12 54J (tubeless)"
+                }
+            }
+        ]
     },
     {
         "id": 6,
         "productImage": "/assets/images/04.jpg",
-        "title": "Product Name",
-        "price": "10,000",
-        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance"
+        "title": "JUPITER  BS-VI",
+        "price": "69,000",
+        "description": "We have the best two wheeler loan interest rate and flexible repayment tenure options through TVS motor\"s Finance",
+        "brand": "TVS",
+        "gallery": [
+            "/assets/images/04.jpg",
+            "/assets/images/04.jpg"
+        ],
+        "highlightedDescription": {
+            "Displacement": "109.7 cc",
+            "Fuel Type": "Petrol"
+        },
+        "brochureLink": "#",
+        "features": [
+            "/assets/images/feature.jpg"
+        ],
+        "technicalDescription": [
+            {
+                "name": "Engine",
+                "data": {
+                    "Type": "Single cylinder 4 stroke, CVTi, fuel injection",
+                    "Displacement": "109.7cc",
+                    "Bore": "53.5 mm",
+                    "Stroke": "48.8 mm",
+                    "Air Filter Type": "Viscous paper filter",
+                    "Maximum Power": "5.5 kW @ 7000 rpm",
+                    "Maximum Torque": "8.4 Nm @ 5500 rpm",
+                    "Transmission Type": "CVT automatic",
+                    "Starting System": "Kick and electric starter"
+                }
+            },
+            {
+                "name": "Transmission",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Electricals",
+                "data": {
+                    "Clutch": "Wet, Multiple-Disc",
+                    "Gears": "4-Speed Constant Mesh"
+                }
+            },
+            {
+                "name": "Chassis & Suspension",
+                "data": {
+                    "Frame": "High rigidity underbone type",
+                    "Length": "1834 mm",
+                    "Width": "678 mm",
+                    "Height": "1286 mm",
+                    "Wheelbase": "1275 mm",
+                    "Ground Clearance": "150 mm (unladen)",
+                    "Kerb Weight": "109 kg",
+                    "Wheels": "Alloy",
+                    "Front Suspension": "Telescopic hydraulic",
+                    "Rear Suspension": "3 step adjustable type coil spring with hydraulic damper"
+                }
+            },
+            {
+                "name": "Brakes",
+                "data": {
+                    "Front": "130 mm Drum (SBT)",
+                    "Rear": "130 mm Drum (SBT)"
+                }
+            },
+            {
+                "name": "Tyres",
+                "data": {
+                    "Front": "90/90-12 54J (tubeless)",
+                    "Rear": "90/90-12 54J (tubeless)"
+                }
+            }
+        ]
     }
 ]
