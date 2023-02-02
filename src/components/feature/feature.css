@@ -12,6 +12,7 @@
 
 .cd-img-jk {
     border-radius: unset !important;
+    display: block;
 }
 
 .overlay-jk {
@@ -20,15 +21,15 @@
 }
 
 .bg-card:nth-child(1n) .overlay-jk {
-    background: #ceac61d1;
+    background: #ceac61d1!important;
 }
 
 .bg-card:nth-child(2n) .overlay-jk {
-    background: #2d5685e3;
+    background: #2d5685e3!important;
 }
 
 .bg-card:nth-child(3n) .overlay-jk {
-    background: #31a3c6d9;
+    background: #31a3c6d9!important;
 }
 
 @media (min-width: 569px) and (max-width: 769px) {

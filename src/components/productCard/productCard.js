@@ -7,7 +7,7 @@ class ProductCard extends Component {
         let data = this.props.data;
         return (
             <a className="card productCard" href={data.id ? '/product/' + data.id : '#'}>
-                <img src={data.productImage} alt="Denim Jeans" />
+                <img src={data.productImage} alt="Denim Jeans" width="414" height="348" />
                 <div className="card-body">
                     <h3>{data.title}</h3>
                     <p className="description">{data.description}</p>

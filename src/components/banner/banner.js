@@ -11,7 +11,7 @@ class Banner extends Component {
                 {slideData.map(item => (
                     <Carousel.Item key={item.id}>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100" width="1349" height="450"
                             src={item.url}
                             alt={item.title}
                         />
