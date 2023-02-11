@@ -1,5 +1,5 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Header from './components/header/header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
@@ -10,10 +10,12 @@ import Gallery from './pages/gallery';
 import Contact from './pages/contact';
 import ProductListing from './pages/productListing';
 import ProductDetails from './components/productDetails/productDetails';
+import FloatingIcons from './components/floatingIcons/floatingIcons';
 function App() {
   return (
     <Router>
       <Header />
+      <FloatingIcons />
       <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/about' element={<AboutUs />} />

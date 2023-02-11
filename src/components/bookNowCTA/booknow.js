@@ -14,7 +14,7 @@ class BookNow extends Component {
                                 <div class="col-2-sec">
                                     <h3 class="title">Book your vehicle now <br />and ride later</h3>
                                     <div class="desc">7893-301-444<br />8027-272-299</div>
-                                    <a class="ireca_tran" href="#" target="_self">Book Now</a>
+                                    <a class="btn btn-white" href="#" target="_self">Book Now</a>
                                 </div>
                             </div>
                         </div>

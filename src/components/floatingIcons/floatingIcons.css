@@ -1,0 +1,55 @@
+.fixed-social {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 999;
+}
+
+.fixed-social a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+}
+
+.fixed-social a span {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    /* right: 100%; */
+    font-size: 14px;
+    padding: 15px;
+    height: 100%;
+    right: -1000%;
+    transition: 0.5s ease;
+    z-index: -1;
+}
+
+.fixed-facebook {
+    background-color: #4267B2;
+}
+.fixed-facebook span{
+    background-color: #4267B2;
+}
+
+.fixed-whatsapp {
+    background-color: #25D366;
+}
+.fixed-whatsapp span{
+    background-color: #25D366;
+}
+
+.fixed-instagrem {
+    background-color: #E1306C;
+}
+.fixed-instagrem span{
+    background-color: #E1306C;
+}
+
+.fixed-social a:hover span{
+    right: 100%;
+}

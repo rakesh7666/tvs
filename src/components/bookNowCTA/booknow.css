@@ -36,18 +36,7 @@
     padding: 0px;
 }
 
-.col-2-sec a.ireca_tran {
-    background-color: #fff;
-    color: #343434;
-    border-color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 10px 25px;
-    display: inline-block;
-    border: 1px solid #c2c2c2;
-    border-radius: 4px;
-    line-height: 18px;
-}
+
 
 @media (min-width: 569px) and (max-width: 769px) {
     .section-2 {

@@ -31,13 +31,17 @@
     font-size: 14px !important;
 }
 
-@media (min-width: 570px) and (max-width: 769px) {
+@media (max-width: 767px) {
     .card-img-jk {
         padding: 0px 0px 0px 25px !important;
     }
 
     .crd-jk {
         font-size: 10px !important;
+    }
+
+    .sec-3hdiv-jk {
+        padding: 0 15px;
     }
 }
 
@@ -46,12 +50,11 @@
         flex: none;
     }
 
-    .col-md-4 {
-        padding: 0px 140px !important;
-    }
-
     .card-img-jk {
         padding: 0px 0px 0px 0px !important;
+        max-width: 150px;
+        margin: 0 auto;
+        display: block;
     }
 }
 
